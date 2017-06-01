@@ -36,5 +36,7 @@ Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir t�
 A més s'han afegit un <i>footer</i> amb enllaços d'interès i un <i>menu navbar</i> que en fer scroll queda fixe adalt.
 
 ## Maquetació
-* ![Horitzonal](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
-* ![Mòvil](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioM.png)
+Horizontal
+![alt Horitzonal](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
+Mòvil
+![alt Mòvil](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioM.png)
