@@ -36,3 +36,9 @@ Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir t�
 A més s'han afegit un <i>footer</i> amb enllaços d'interès i un <i>menu navbar</i> que en fer scroll queda fixe adalt.
 
 ## Maquetació
+
+Horizontal
+![maquetació horizontal](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
+
+Mòvil
+![maquetació mòvil](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioM.png)
