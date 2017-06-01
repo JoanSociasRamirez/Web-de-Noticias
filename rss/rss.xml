@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Surf Noticias</title>
+        <link>index.html</link>
+        <description>Informacion sobre surf y demas</description>
+
+        <item>
+            <title>Festivales de Surf</title>
+            <link>news1.html</link>
+            <description>The North Face Mountain Festival 2017. 14 al 17 de septiembre de 2017. Si tiene espíritu montañero, si lo suyo es escalar, correr, hacer parapente, barranquismo o senderismo, tiene que ir al impresionante paisaje alpino de Lauterbrunnen (Suiza), a los pies del monte Eiger, ahí está su festival. Con numerosos talleres de cocina, de expedición o de fotografía de aventura, y por supuesto conciertos en vivo, charlas inspiradoras de deportistas de élite y fuego de campamento. Yo voy, no digo más.</description>
+            <pubDate>26 ABR 2017 - 11:36 CEST</pubDate>
+        </item>
+
+        <item>
+            <title>Surf y tiburones</title>
+            <link>news2.html</link>
+            <description>Un surfista espera flotando sobre la tabla a menos de 200 metros de la playa. El agua está un poco turbia debido a las lluvias que han caído el último día y no queda más de una hora de luz, pero las olas son fantásticas. El sol se ha convertido en una bola naranja a cuatro dedos sobre la línea del horizonte que marca el mar, y todo es calma..</description>
+            <pubDate>13 MAY 2017 - 12:11 CEST</pubDate>
+        </item>
+
+        <item>
+            <title>“Surfeaba a escondidas”</title>
+            <link>news3.html</link>
+            <description>Aitor Francesena (Zarautz, 1970) se acaba de proclamar campeón del mundo de surf en La Jolla, San Diego (California). Es ciego, no cree en el talento y ha corrido mucho para verlo todo.</description>
+                <pubDate>15 MAY 2017 - 8:01 CEST</pubDate>
+            </item>
+
+            <item>
+                <title>Huir de las pandillas sobre una tabla de surf</title>
+                <link>news4.html</link>
+                <description>Los jóvenes de un entorno marginal de Lima apuestan por los deportes acuáticos para alejarse de la delincuencia. Los jóvenes de un entorno marginal de Lima apuestan por los deportes acuáticos para alejarse de la delincuencia</description>
+                    <pubDate>14 ABR 2017 - 11:07 CEST</pubDate>
+                </item>
+            </channel>
+
+        </rss>

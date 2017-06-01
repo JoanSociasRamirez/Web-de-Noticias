@@ -1,0 +1,272 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+
+}
+
+body {
+
+}
+
+#jumboTron {
+    background: url("../img/jumboTron.jpg") 50% 63% no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.affix{
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font-size:  8vw !important;
+    color: brown !important;
+    text-shadow: 3px 2px black;
+}
+
+
+#myMenu {
+    background: whitesmoke;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.listaNormal {
+    margin-left: 2.5%;
+}
+
+.listaNormal li {
+    list-style-type: none;
+    display: inline-block;
+    width: 24%;
+    background-color: red;
+}
+.btn-primary {
+    color: black;
+    background-color: cyan;
+    border-color: blue;
+}
+.btn-info {
+    color: #0314f7;
+    background-color: #de5bb1;
+    border-color: #da4646;
+}
+
+#btnLoad {
+    width: calc(50% - 2em);
+    margin: auto;
+}
+.dropdown-menu {
+    width: 100%;
+}
+.dropdown-menu li {
+    width: 100%;
+}
+
+.not img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /*transition: all 2s;*/
+}
+.not2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+.listaNormal button{
+    background: aqua;
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color:cyan;
+}
+
+.container {
+    background: grey;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+#menu2 {
+    width: 100%;
+}
+
+#notSlider {
+    margin-top: 2.5%;
+    position: relative;
+}
+
+#myCarousel {
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.carousel-inner > .item > a > img{
+    margin: 0 auto;
+}
+
+.carousel-inner > .item > h3{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.carousel-inner > .item{
+    background-color: black;
+}
+
+#myCarousel h3{
+    font-size: 41px;
+    text-shadow: 1px 1px black;
+    position: absolute;
+    z-index: 20 !important;
+    color: black;
+    top: 0;
+    width: 100%;
+    /*text-align: center;*/
+}
+
+#notSlider img{ 
+    border: solid 2px white;
+}
+
+#noticias {
+    /*background: blue;*/
+    float: left;
+    width: calc(100% - 300px);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#publicidad {
+    width: 300px;
+    float: right;
+}
+
+#publM{
+    display:none;
+}
+
+.not {
+    /*background: lawngreen;*/
+    box-shadow: 0px 0px 6vw #888888;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    border: solid 2px darkgray;
+    overflow: hidden;
+    position: relative;
+}
+
+.not .notTitle {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    font-size: 2vw;
+    color: cyan;
+    background: #010110;
+}
+
+.not img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.not img:hover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.not .desc {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    padding: 2vw;
+    color: black;
+}
+
+.footer {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: skyblue;
+    text-align: end;
+    font-size: 30px;
+}
+
+.footer li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 4px;
+    margin-right: 10px;
+}
+
+
+/*
+.footer li:hover{
+    transform: scale(0.9);
+    opacity: 1;
+}
+*/
+/*VERTICAL*/
+@media screen and (max-width: 750px){
+    #jumboTron {
+        /* background: red;*/
+    }
+
+    #noticias {
+        position: static;
+        width: 100%;
+    }
+
+    #publicidad {
+        opacity: 0.6;
+        height: 90px;
+        width: 100%;
+        position: static;
+    }
+    #btnLoad {
+        width: 50%;
+        margin: auto;
+        align-content: center;
+    }
+    .publ {
+        float: left;
+        width: 50%;
+        display:none;
+    }
+    #publM{
+        display: block;
+        text-align: center;
+    }
+}
