@@ -34,6 +34,7 @@ La plantilla o pàgina de veure una sola notícia news1.html (news2.html és id�
 Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir títol, descripció, imatge (gran), nom de l'aplicació i url de la pàgina.
 
 A més s'han afegit un <i>footer</i> amb enllaços d'interès i un <i>menu navbar</i> que en fer scroll queda fixe adalt.
+Afegida una branch minify per la seva respectiva versió minify.
 
 ## Maquetació
 
