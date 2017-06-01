@@ -3,7 +3,7 @@ Pàgina web de noticies sobre surf carregades des de json.
 Creada per a l'assignatura de Llenguatge de Marques DAM1 per Joan Socias.
 
 ## Rawgit
-https://rawgit.com/ToniMeco/WebDeNoticias/master/index.html
+https://rawgit.com/ToniMeco/Web-de-Noticias/master/index.html
 
 ## Objectiu final:
 Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarregui més notícies amb html, jQuery i Bootstrap.
@@ -12,15 +12,17 @@ Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarre
 ## Especificacions del client realitzades:
 
 La maquetació (layer design) ha de deixar 300 px d'espai a la dreta de la pantalla per publicitat si la pantalla és suficientment ample. Tot altre diseny és lliure.
+
 Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure.
 * En el meu cas la publicitat en els dispositius mòvils estarà fixa adalt i desapareixerà en fer scroll.
 
 Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime).
+
 Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu.
 
 ## Tasques realitzades:
 
-Presenta news.html amb 3 notícies (ja escrites al html, no carregar amb js) i emmagatzema 6 noticies més en dos fitxers, data/1.json data/2.json per ser carregades amb js. 
+Presenta news.html amb 3 notícies (ja escrites al html, no carregar amb js) i emmagatzema 6 noticies més en dos fitxers, data/1.json data/2.json per ser carregades amb js.
 * En el meu cas hi ha 4 noticies precarregades i 3 json amb 2 noticies cada un.
 
 Codifica news.js en jQuery per fer: "botó carregar més notícies" i "scroll bottom" que, en ser activat qualsevol d'ells, faci una càrrega i presentació de més dades (fins a dues vegades 1.json, 2.json)
@@ -37,9 +39,7 @@ A més s'han afegit un <i>footer</i> amb enllaços d'interès i un <i>menu navba
 Afegida una branch minify per la seva respectiva versió minify.
 
 ## Maquetació
-
 Horizontal
-![maquetació horizontal](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
-
+![alt Horitzonal](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
 Mòvil
-![maquetació mòvil](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioM.png)
+![alt Mòvil](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioM.png)
