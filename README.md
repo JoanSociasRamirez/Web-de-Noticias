@@ -3,7 +3,7 @@ Pàgina web de noticies sobre surf carregades des de json.
 Creada per a l'assignatura de Llenguatge de Marques DAM1 per Joan Socias.
 
 ## Rawgit
-https://rawgit.com/ToniMeco/WebDeNoticias/master/index.html
+https://rawgit.com/ToniMeco/Web-de-Noticias/master/index.html
 
 ## Objectiu final:
 Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarregui més notícies amb html, jQuery i Bootstrap.
@@ -36,3 +36,4 @@ Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir t�
 A més s'han afegit un <i>footer</i> amb enllaços d'interès i un <i>menu navbar</i> que en fer scroll queda fixe adalt.
 
 ## Maquetació
+![alt text](https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/disseny/maquetacioD.png)
