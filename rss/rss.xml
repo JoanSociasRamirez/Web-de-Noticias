@@ -5,6 +5,13 @@
         <title>Surf Noticias</title>
         <link>index.html</link>
         <description>Informacion sobre surf y demas</description>
+        <image>
+            <url>
+                https://rawgit.com/ToniMeco/Web-de-Noticias/master/img/ico.png
+            </url>
+            <title>Logo Noticias Surf</title>
+            <link>https://rawgit.com/ToniMeco/Web-de-Noticias/master/index.html</link>
+        </image>
 
         <item>
             <title>Festivales de Surf</title>
