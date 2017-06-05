@@ -11,7 +11,7 @@ $(document).ready(function () {//al cargar la web
 
     //cargar news con scroll
     $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() === $(document).height()) {
+        if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
             cargarNoticias();
         }
         
