@@ -5,12 +5,9 @@ body, html {
 
 }
 
-body {
-
-}
 
 #jumboTron {
-    background: url("../img/jumboTron.jpg") 50% 63% no-repeat;
+    background: url("../img/jumboTron.jpg") 0% 63% no-repeat;
     background-size: cover;
     margin: 0;
 }
@@ -22,74 +19,20 @@ body {
     right: 0;
 }
 
+.title {
+    font-size: 3.5vw;
+    color: cyan;
+}
+
 h1 {
-    font-size:  8vw !important;
+    font-size:  10vw !important;
     color: brown !important;
     text-shadow: 3px 2px black;
-}
-
-
-#myMenu {
-    background: whitesmoke;
-    width: 100%;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.listaNormal {
-    margin-left: 2.5%;
-}
-
-.listaNormal li {
-    list-style-type: none;
-    display: inline-block;
-    width: 24%;
-    background-color: red;
-}
-.btn-primary {
-    color: black;
-    background-color: cyan;
-    border-color: blue;
-}
-.btn-info {
-    color: #0314f7;
-    background-color: #de5bb1;
-    border-color: #da4646;
 }
 
 #btnLoad {
     width: calc(50% - 2em);
     margin: auto;
-}
-.dropdown-menu {
-    width: 100%;
-}
-.dropdown-menu li {
-    width: 100%;
-}
-
-.not img {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    /*transition: all 2s;*/
-}
-.not2{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-
-
-
-.listaNormal button{
-    background: aqua;
-    width: 100%;
-    font-size: 1.5vw;
 }
 
 a {
@@ -102,16 +45,6 @@ a:hover {
     color:cyan;
 }
 
-.container {
-    background: grey;
-    margin: 0;
-    position: relative;
-    width: 100%;
-}
-
-#menu2 {
-    width: 100%;
-}
 
 #notSlider {
     margin-top: 2.5%;
@@ -119,8 +52,8 @@ a:hover {
 }
 
 #myCarousel {
+    margin-bottom: 4%;
     position: relative;
-    margin-bottom: 5%;
 }
 
 .carousel-inner > .item > a > img{
@@ -144,15 +77,13 @@ a:hover {
     color: black;
     top: 0;
     width: 100%;
-    /*text-align: center;*/
 }
 
 #notSlider img{ 
-    border: solid 2px white;
+    border: solid 2px blue;
 }
 
 #noticias {
-    /*background: blue;*/
     float: left;
     width: calc(100% - 300px);
     padding-left: 2.5%;
@@ -160,8 +91,8 @@ a:hover {
 }
 
 #publicidad {
-    width: 300px;
     float: right;
+    width: 300px;
 }
 
 #publM{
@@ -169,8 +100,7 @@ a:hover {
 }
 
 .not {
-    /*background: lawngreen;*/
-    box-shadow: 0px 0px 6vw #888888;
+    box-shadow: 0px 0px 6vw gray;
     margin-top: 1em;
     margin-bottom: 1em;
     width: 100%;
@@ -179,40 +109,12 @@ a:hover {
     position: relative;
 }
 
-.not .notTitle {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1em;
-    font-size: 2vw;
-    color: cyan;
-    background: #010110;
-}
-
 .not img {
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
-
-.not img:hover {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-
-.not .desc {
-    position: absolute;
-    display: none;
-    bottom: 0;
-    padding: 2vw;
-    color: black;
-}
 
 .footer {
     float: right;
@@ -231,22 +133,16 @@ a:hover {
     margin-right: 10px;
 }
 
-
-/*
-.footer li:hover{
-    transform: scale(0.9);
-    opacity: 1;
-}
-*/
 /*VERTICAL*/
 @media screen and (max-width: 750px){
-    #jumboTron {
-        /* background: red;*/
-    }
 
     #noticias {
         position: static;
         width: 100%;
+    }
+
+    .row {
+        margin: -8px !important;
     }
 
     #publicidad {
